@@ -1,0 +1,9 @@
+- Thực hiện tạo repository mới trên gilab server:
+10.215.26.199 root/vnpro@149
+- Cài đặt ansible và tạo 1 file playbook với nội dung của câu 5
+- Thực hiện cài đặt gitlab runner và thêm các yêu cầu cần thiết
+url, token để mở runner
+- Thực hiện clone repository về và thực hiện :
+viết pipeline: .gitlab-ci.yaml
+- Sau đó push các file cần thiết ansible.cfg, hosts, cau7.yml lên
+--> Kiểm tra quá trình chạy pipeline 

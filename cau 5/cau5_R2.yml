@@ -1,0 +1,12 @@
+---
+interface:
+  - name: Ethernet0/1
+    ip: 192.168.2.1/24
+    noshut: True
+  - name: Ethernet0/2
+    ip: 192.168.12.2/24
+    noshut: True
+route:
+  - prefix: 192.168.1.0
+    mask: 255.255.255.0
+    next_hop: 192.168.12.1

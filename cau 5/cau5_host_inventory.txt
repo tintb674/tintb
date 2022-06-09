@@ -1,0 +1,11 @@
+[Router]
+R1 ansible_host=10.215.26.242
+R2 ansible_host=10.215.26.243
+[all:vars]
+ansible_become_password=312
+ansible_user=admin
+ansible_password=123
+ansible_connection=network_cli
+ansible_become="yes"
+ansible_become_method="enable"
+ansible_network_os=ios
